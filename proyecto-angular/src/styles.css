@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    margin: auto;
+}
+body{
+    background-color: #eeeff1;
+    background-image: url(assets/IMG/object-symmetry-pattern-beige-brightly.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn-primary{
+    --bs-btn-bg:#3c3c3b;
+    --bs-btn-border-color: #3c3c3b;
+    --bs-btn-hover-border-color:#434446;
+    --bs-btn-hover-bg:#434446;
+    --bs-btn-active-bg:#434446;
+    --bs-btn-active-color:none;
+    --bs-btn-active-border-color: none;
+    --bs-btn-disabled-border-color: none;
+    --bs-btn-disabled-bg: none;
+    --bs-btn-focus-shadow-rgb:67, 68, 70;
+}
+.row.border.border-dark.rounded-4{
+    --bs-gutter-x: -8.2rem;
+    
+}
+.titulo{
+    border: none;
+    background-color:#3c3c3b42;
+}
